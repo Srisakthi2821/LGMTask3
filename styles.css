@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.calculator_background {
+    background-image: url("https://img.freepik.com/free-photo/top-view-desk-concept-with-notepad_23-2148604955.jpg?size=626&ext=jpg&ga=GA1.2.576068589.1681313773&semt=ais");
+    background-size: cover;
+    height: 100vh;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.heading_calculator {
+    font-family: "Bree Serif";
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+
+.span_head {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.calculator {
+    padding: 50px;
+    border-radius: 10px;
+    height: 500px;
+    width: 550px;
+    background: black;
+    margin-right: auto;
+}
+
+.buttonall {
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.5s;
+    background-image: linear-gradient(to right, #bf2241 30px, #60305b);
+    color: white;
+    border: none;
+    font-size: 15px;
+    border-left: solid 3px #64e7e1;
+
+}
+
+.puls_btn {
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.5s;
+    background-image: linear-gradient(to right, #bf2241 30px, #60305b);
+    color: white;
+    border: none;
+    font-size: 15px;
+    border-left: solid 3px #64e7e1;
+}
+
+.buttonall:hover {
+    transform: scale(1.2);
+    background-color: #26ecff;
+    border-width: 0px;
+    margin: 1px;
+}
+
+.display_input {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #dcdbe1;
+    font-size: 28px;
+    color: black;
+    border-radius: 5px;
+    width: 100%;
+    height:60px;
+}
+
+.clear_button {
+    width: 70px;
+    height: 60px;
+    margin-right: -10px;
+    transition: 0.5s;
+    border: none;
+    transition-timing-function: ease;
+}
+
+.clear_button:hover {
+    transform: scale(1.1);
+    font-size: 20px;
+    margin: 3px;
+}
